@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EE6D4C171E7E91F7008F5D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D4C161E7E91F7008F5D17 /* AppDelegate.swift */; };
-		EE6D4C191E7E91F7008F5D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D4C181E7E91F7008F5D17 /* ViewController.swift */; };
 		EE6D4C1C1E7E91F7008F5D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6D4C1A1E7E91F7008F5D17 /* Main.storyboard */; };
 		EE6D4C1F1E7E91F7008F5D17 /* MasterCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE6D4C1D1E7E91F7008F5D17 /* MasterCoreData.xcdatamodeld */; };
 		EE6D4C211E7E91F7008F5D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6D4C201E7E91F7008F5D17 /* Assets.xcassets */; };
 		EE6D4C241E7E91F7008F5D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6D4C221E7E91F7008F5D17 /* LaunchScreen.storyboard */; };
+		EE6D4C2C1E7EC79C008F5D17 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D4C2B1E7EC79C008F5D17 /* MainViewController.swift */; };
+		EE6D4C2E1E7ECD67008F5D17 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D4C2D1E7ECD67008F5D17 /* MainTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE6D4C131E7E91F7008F5D17 /* MasterCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6D4C161E7E91F7008F5D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE6D4C181E7E91F7008F5D17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE6D4C1B1E7E91F7008F5D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE6D4C1E1E7E91F7008F5D17 /* MasterCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MasterCoreData.xcdatamodel; sourceTree = "<group>"; };
 		EE6D4C201E7E91F7008F5D17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE6D4C231E7E91F7008F5D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE6D4C251E7E91F7008F5D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6D4C2B1E7EC79C008F5D17 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EE6D4C2D1E7ECD67008F5D17 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				EE6D4C161E7E91F7008F5D17 /* AppDelegate.swift */,
-				EE6D4C181E7E91F7008F5D17 /* ViewController.swift */,
 				EE6D4C1A1E7E91F7008F5D17 /* Main.storyboard */,
 				EE6D4C201E7E91F7008F5D17 /* Assets.xcassets */,
 				EE6D4C221E7E91F7008F5D17 /* LaunchScreen.storyboard */,
 				EE6D4C251E7E91F7008F5D17 /* Info.plist */,
 				EE6D4C1D1E7E91F7008F5D17 /* MasterCoreData.xcdatamodeld */,
+				EE6D4C2B1E7EC79C008F5D17 /* MainViewController.swift */,
+				EE6D4C2D1E7ECD67008F5D17 /* MainTableViewCell.swift */,
 			);
 			path = MasterCoreData;
 			sourceTree = "<group>";
@@ -140,9 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE6D4C191E7E91F7008F5D17 /* ViewController.swift in Sources */,
 				EE6D4C171E7E91F7008F5D17 /* AppDelegate.swift in Sources */,
 				EE6D4C1F1E7E91F7008F5D17 /* MasterCoreData.xcdatamodeld in Sources */,
+				EE6D4C2E1E7ECD67008F5D17 /* MainTableViewCell.swift in Sources */,
+				EE6D4C2C1E7EC79C008F5D17 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
